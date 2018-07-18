@@ -1,0 +1,58 @@
+/* Styles for BAW CSS demo */
+
+body {
+	background-color: rgba(172,120,63,1);
+	color: white;
+	/* background-image: url("pictures/orange-cat.jpeg");
+	background-repeat: no-repeat; */
+}
+
+
+img {
+/* These properties make the image responsive to the viewport */
+	width: 100%;
+	max-width: 500px;
+/* end responsive image properties*/
+	display: block;
+	margin: auto;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	background-color: red;
+}
+
+a {
+	color: #965206;
+}
+
+a:hover {
+	color: white;
+}
+
+a:visited {
+	color: red;
+}
+
+p {
+	font-family: 'Markazi Text', serif;
+	text-align: left;
+	font-size: 2em;
+	text-transform: capitalize;
+	text-indent: 1em;
+}
+
+h1 {
+	text-transform: capitalize;
+}
+
+.small {
+	width: 50%;
+	max-width: 250px;
+}
+
+.mainContainer {
+	width: 90%;
+	max-width: 900px;
+	background-color: purple;
+	display: block;
+	margin: auto;
+}
